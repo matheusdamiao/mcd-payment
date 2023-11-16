@@ -115,7 +115,7 @@ export default function Home() {
             </div>
             <div className="flex justify-between w-full px-2 items-baseline max-w-[320px]">
               <small className="text-[#5F5F5F] text-sm">Total</small>
-              <p className="text-3xl text-[#1D81A2] ">R$ 800</p>
+              <p className="text-3xl text-[#1D81A2] ">US$ 5.000</p>
             </div>
           </div>
         </div>

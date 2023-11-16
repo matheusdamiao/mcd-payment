@@ -16,8 +16,8 @@ export default function RootLayout({
       <PayPalScriptProvider
         options={{
           clientId:
-            "AYyfpJk16czBfj5cm8lfjbhH0gfxZibTfsHLY-5uEwphLpUnYNA1s0QI76mdixMeiKI9ErSDd3OK5hoY",
-          currency: "BRL",
+            "AVY8RdUVR8_xH2haQY_xgmGRuGyCTgcZxH-qjjFLacCPfve-nLd9inK35SHhCB5vyzmlAgx-jC74N-M_",
+          currency: "USD",
         }}
       >
         <body className={inter.className}>{children}</body>

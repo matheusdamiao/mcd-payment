@@ -6,7 +6,7 @@ export const createOrder = async (cart: string) => {
     const base = 'https://api-m.paypal.com'
 
     // use the cart information passed from the front-end to calculate the purchase unit details
-    console.log(
+    console.log(  
       "shopping cart information passed from the frontend createOrder() callback:",
       cart,
     );
@@ -18,8 +18,8 @@ export const createOrder = async (cart: string) => {
       purchase_units: [
         {
           amount: {
-            currency_code: "BRL",
-            value: "1.00",
+            currency_code: "USD",
+            value: "5000",
           },
         },
       ],
